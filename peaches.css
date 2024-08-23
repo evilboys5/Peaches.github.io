@@ -7,26 +7,24 @@
 }
 
 body {
-    min-height: 100vh;
     background-image: url("IMG_2330.JPG");
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
     z-index: -1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .content {
     background-color: rgba(249, 232, 232, 0.6);
     backdrop-filter: blur(30px);
+    justify-content: center; 
+    max-width: 100%;
+    margin: 0 auto;
+    width: 650px;
+    height: auto;
     text-align: center;
-    margin-left: left;
-    margin-right: right;
-    width: 550px;
-    height: 800px;
-    border-color: white;
-    border-style: dashed;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 hr {
