@@ -9,10 +9,17 @@ body {
 }
 
 .header {
+    background-image: url(https://public-files.gumroad.com/dmbv6thfdvyj6ffn0ls0b6975mr9);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
     text-transform: uppercase;
     padding: 30px;
     font-size: 30px;
+    font-weight: bolder;
     font-family: Sunbright;
     background-color: rgb(217, 217, 165);
     color: #000000;
